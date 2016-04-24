@@ -98,6 +98,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libjni_livedisplay
 
+# Doze mode
+PRODUCT_PACKAGES += \
+    LenovoDoze
+
 # DPM
 PRODUCT_BOOT_JARS += \
     com.qti.dpmframework \
