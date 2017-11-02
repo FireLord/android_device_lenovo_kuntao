@@ -97,7 +97,8 @@ BOARD_CHARGER_SHOW_PERCENTAGE := true
 # CMHW
 BOARD_USES_CYANOGEN_HARDWARE := true
 BOARD_HARDWARE_CLASS += \
-    hardware/cyanogen/cmhw
+    hardware/cyanogen/cmhw \
+    device/lenovo/kuntao
 
 # CNE | DPM
 BOARD_USES_QCNE := true
